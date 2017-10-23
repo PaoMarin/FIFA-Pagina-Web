@@ -1,0 +1,36 @@
+body {
+background-color: white;
+}
+
+#contenedor {
+}
+#cabecera {
+  width:1500px;
+  background-color: #3498DB;
+}
+
+#titulo {
+  text-align: center;
+  color: white;
+}
+
+#equipos {
+background-color: #F7DC6F;
+height:500px;
+}
+
+#equipo {
+  border: 1;
+  display: flex;
+  justify-content:center;
+  height: 50px;
+}
+
+
+#boton{
+  display: flex;
+  justify-content:flex-start;
+  height:100px;
+  width:150px;
+  background-image:url(C:\Users\Mario\Desktop\Proyecto-FIFA\image\rusia.png);
+}
