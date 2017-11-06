@@ -2,35 +2,91 @@ body {
 background-color: white;
 }
 
-#contenedor {
-}
-#cabecera {
-  width:1500px;
-  background-color: #3498DB;
+#contenedor1 {
+  border: 1;
+  background-color: #C0392B;
+  height: 60px;
 }
 
-#titulo {
-  text-align: center;
-  color: white;
+
+#logo{
+  width: 100%;
 }
 
 #equipos {
-background-color: #F7DC6F;
-height:500px;
+  border: 1;
+  background-color: #F7DC6F;
+  height:2000px;
+  display: flex;
+  justify-content:center;
+}
+
+#cuadro2{
+height:300px;
+width:200px;
 }
 
 #equipo {
   border: 1;
+  background-color: #F7DC6F;
   display: flex;
-  justify-content:center;
-  height: 50px;
+  justify-content:space-between;
 }
-
 
 #boton{
   display: flex;
   justify-content:flex-start;
   height:100px;
   width:150px;
-  background-image:url(C:\Users\Mario\Desktop\Proyecto-FIFA\image\rusia.png);
+}
+
+#aa{
+  width:1000px;
+}
+
+
+
+h2{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+#jugadorsize{
+height:50px;
+}
+
+
+.cancha{
+  height:600px;
+  width:550px;
+  background-image: url("C:/Users/Mario/Desktop/Proyecto-FIFA/image/cancha.jpg");
+  background-size: 400px;
+  background-repeat: no-repeat;
+  align-items:flex-start;
+}
+
+#portero{
+  width: 400px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#jugador{
+  width: 400px;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#pie{
+  width: 1248px;
+  height: 100px;
+}
+
+#foto{
+  display: flex;
+  justify-content: center;
+  background-color: #F7DC6F;
 }
