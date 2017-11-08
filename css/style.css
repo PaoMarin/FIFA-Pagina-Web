@@ -5,9 +5,17 @@ background-color: white;
 #contenedor1 {
   border: 1;
   background-color: #C0392B;
-  height: 60px;
+  height: 50px;
+  display: flex;
+  justify-content:space-around;
 }
 
+#titulo{
+ background-color: #F7DC6F;
+ display: flex;
+ justify-content:center;
+ height:20px;
+}
 
 #logo{
   width: 100%;
