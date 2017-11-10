@@ -46,6 +46,29 @@ width:200px;
    justify-content: center;
 }
 
+#fondo1{
+  border: 1;
+  background-color: #F7DC6F;
+  height:500px;
+  display: flex;
+   justify-content: center;
+}
+
+#fondo2{
+  border: 1;
+  background-color: #F7DC6F;
+  height:300px;
+  display: flex;
+   justify-content: center;
+}
+
+#fondo3{
+  border: 1;
+  background-color: #F7DC6F;
+  height:200px;
+  display: flex;
+   justify-content: center;
+}
 
 #equipo{
   border: 1;
@@ -113,6 +136,15 @@ height:50px;
 }
 
 #grupo{
+  display: flex;
+  justify-content:center;
+}
+#octavos{
+  display: flex;
+  justify-content: center;
+
+}
+#cuartos{
   display: flex;
   justify-content: center;
 }
