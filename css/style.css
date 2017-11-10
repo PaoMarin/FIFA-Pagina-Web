@@ -2,20 +2,24 @@ body {
 background-color: white;
 }
 
+.contenedor{
+}
+
 #contenedor1 {
   border: 1;
   background-color: #C0392B;
   height: 50px;
-  display: flex;
-  justify-content:space-around;
+ display: flex;
+ justify-content:space-around;
 }
 
 #titulo{
  background-color: #F7DC6F;
  display: flex;
  justify-content:center;
- height:20px;
+ height:90px;
 }
+
 
 #logo{
   width: 100%;
@@ -24,9 +28,9 @@ background-color: white;
 #equipos {
   border: 1;
   background-color: #F7DC6F;
-  height:2000px;
+  height:4000px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
 }
 
 #cuadro2{
@@ -34,7 +38,16 @@ height:300px;
 width:200px;
 }
 
-#equipo {
+#fondo{
+  border: 1;
+  background-color: #F7DC6F;
+  height:1000px;
+  display: flex;
+   justify-content: center;
+}
+
+
+#equipo{
   border: 1;
   background-color: #F7DC6F;
   display: flex;
@@ -97,4 +110,9 @@ height:50px;
   display: flex;
   justify-content: center;
   background-color: #F7DC6F;
+}
+
+#grupo{
+  display: flex;
+  justify-content: center;
 }
